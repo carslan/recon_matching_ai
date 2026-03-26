@@ -1,0 +1,37 @@
+2026-03-26 01:47:29.007 | INFO     | server:<module>:197 - Recon Matching Service initialized. Workspace: /home/che/LocalAppStore/Apps/recon-matching/workspace
+2026-03-26 01:47:48.472 | INFO     | server:recon_match_execute:122 - ReconMatch EXECUTE: workspace=asset, ruleset=account, run_id=20260326054748._98d74454
+2026-03-26 01:47:48.473 | INFO     | recon_matching.lro_client:create:32 - LRO created: 8c3d087e-db74-40c3-8e48-f5df793d5cd6
+2026-03-26 01:47:48.473 | INFO     | recon_matching.service:execute:37 - ReconMatch service: run_id=20260326054748._98d74454, lro_id=8c3d087e-db74-40c3-8e48-f5df793d5cd6
+2026-03-26 01:47:48.474 | INFO     | recon_matching.scaffold:create_run_dir:22 - Created RUN_DIR: /home/che/LocalAppStore/Apps/recon-matching/workspace/outputs/2026-03-26/asset/account/20260326054748._98d74454
+2026-03-26 01:47:48.474 | INFO     | recon_matching.scaffold:validate_and_prepare:36 - Scaffold complete: KB_DIR=/home/che/LocalAppStore/Apps/recon-matching/workspace/knowledgebase/rulesets/asset/account, RUN_DIR=/home/che/LocalAppStore/Apps/recon-matching/workspace/outputs/2026-03-26/asset/account/20260326054748._98d74454
+2026-03-26 01:47:48.474 | INFO     | recon_matching.boot:phase_a:54 - Phase A complete: KB_DIR=/home/che/LocalAppStore/Apps/recon-matching/workspace/knowledgebase/rulesets/asset/account, RUN_DIR=/home/che/LocalAppStore/Apps/recon-matching/workspace/outputs/2026-03-26/asset/account/20260326054748._98d74454
+2026-03-26 01:47:48.477 | INFO     | recon_matching.boot:phase_b:105 - Phase B complete: loaded 3 sections, 4 JSON configs
+2026-03-26 01:47:48.479 | INFO     | recon_matching.boot:phase_c:193 - Phase C complete: 3 exclusion + 4 matching = 7 waterfall steps
+2026-03-26 01:47:48.480 | INFO     | recon_matching.boot:get_ready:242 - Get-ready complete: dataset copied, manifest skeleton written
+2026-03-26 01:47:48.480 | INFO     | recon_matching.boot:boot:282 - Boot complete for run_id=20260326054748._98d74454
+2026-03-26 01:47:48.480 | INFO     | recon_matching.orchestrator:run:69 - Orchestrator starting run_id=20260326054748._98d74454, 7 waterfall steps
+2026-03-26 01:47:48.481 | INFO     | recon_matching.executor:execute:70 - Executor: step=1, rule=EXCL_CUST_DERIV, operator=exclude_by_predicates
+2026-03-26 01:47:48.522 | INFO     | recon_matching.duckdb_skill:duckdb_open_or_create:40 - DuckDB opened: /home/che/LocalAppStore/Apps/recon-matching/workspace/outputs/2026-03-26/asset/account/20260326054748._98d74454/run.duckdb
+2026-03-26 01:47:48.644 | INFO     | recon_matching.duckdb_skill:duckdb_load_dataset:53 - Loaded 408 rows into base_dataset from /home/che/LocalAppStore/Apps/recon-matching/workspace/outputs/2026-03-26/asset/account/20260326054748._98d74454/dataset_file.csv
+2026-03-26 01:47:48.787 | INFO     | recon_matching.duckdb_skill:duckdb_init_pool:90 - Pool initialized: 408 total, 0 matched, 408 unmatched
+2026-03-26 01:47:48.863 | INFO     | recon_matching.duckdb_skill:duckdb_profile:136 - Profile: 408 rows, type=two_sided, 18 amount cols, 2 blocking strategies
+2026-03-26 01:47:48.867 | INFO     | recon_matching.executor:_ensure_initialized:63 - Executor initialized: db=/home/che/LocalAppStore/Apps/recon-matching/workspace/outputs/2026-03-26/asset/account/20260326054748._98d74454/run.duckdb, profile=/home/che/LocalAppStore/Apps/recon-matching/workspace/outputs/2026-03-26/asset/account/20260326054748._98d74454/dataset_profile.json
+2026-03-26 01:47:49.177 | INFO     | recon_matching.executor:execute:70 - Executor: step=2, rule=EXCL_COLLATERAL, operator=exclude_by_predicates
+2026-03-26 01:47:49.283 | INFO     | recon_matching.executor:execute:70 - Executor: step=3, rule=EXCL_FX_HEDGE, operator=exclude_by_predicates
+2026-03-26 01:47:49.373 | INFO     | recon_matching.executor:execute:70 - Executor: step=4, rule=EXACT_MATCH_FUND, operator=one_to_one_ranked
+2026-03-26 01:47:49.411 | ERROR    | recon_matching.executor:execute:100 - Executor failed on step 4: Binder Error: Ambiguous reference to column name "sec_group" (use: "a.sec_group" or "b.sec_group")
+
+LINE 12:             WHERE ((sec_group == 'FUND')) AND ((sec_group == 'FUND'))
+                             ^
+2026-03-26 01:47:49.411 | ERROR    | recon_matching.orchestrator:run:101 - Step 4 failed: []
+2026-03-26 01:47:49.411 | INFO     | recon_matching.executor:execute:70 - Executor: step=5, rule=EXACT_MATCH_BLKCUSIP, operator=one_to_one_ranked
+2026-03-26 01:47:52.439 | INFO     | recon_matching.executor:execute:70 - Executor: step=6, rule=SEC_ID_ISSUE_MULTI, operator=many_to_many_balance_k
+2026-03-26 01:47:52.496 | INFO     | recon_matching.executor:execute:70 - Executor: step=7, rule=ZERO_POS, operator=one_sided
+2026-03-26 01:47:52.567 | INFO     | recon_matching.duckdb_skill:duckdb_export_exclusions_csv:526 - Exported 115 exclusions to /home/che/LocalAppStore/Apps/recon-matching/workspace/outputs/2026-03-26/asset/account/20260326054748._98d74454/exclusions.csv
+2026-03-26 01:47:52.580 | INFO     | recon_matching.duckdb_skill:duckdb_export_matches_csv:547 - Exported 106 matched records to /home/che/LocalAppStore/Apps/recon-matching/workspace/outputs/2026-03-26/asset/account/20260326054748._98d74454/matches.csv
+2026-03-26 01:47:52.590 | INFO     | recon_matching.duckdb_skill:duckdb_export_breaks_csv:565 - Exported 187 breaks to /home/che/LocalAppStore/Apps/recon-matching/workspace/outputs/2026-03-26/asset/account/20260326054748._98d74454/breaks.csv
+2026-03-26 01:47:52.618 | INFO     | recon_matching.finalize:write_breaks_reasoning:79 - Wrote 187 break reasoning items to /home/che/LocalAppStore/Apps/recon-matching/workspace/outputs/2026-03-26/asset/account/20260326054748._98d74454/breaks_reasoning.json
+2026-03-26 01:47:52.657 | INFO     | recon_matching.finalize:finalize_run:176 - All required artifacts present
+2026-03-26 01:47:52.657 | INFO     | recon_matching.finalize:finalize_run:178 - Run finalized: 408 input, 115 excluded, 106 matched, 187 breaks
+2026-03-26 01:47:52.657 | INFO     | recon_matching.orchestrator:run:116 - Orchestrator complete: 7 steps executed
+2026-03-26 01:47:52.657 | INFO     | recon_matching.lro_client:complete:50 - LRO 8c3d087e-db74-40c3-8e48-f5df793d5cd6 completed
