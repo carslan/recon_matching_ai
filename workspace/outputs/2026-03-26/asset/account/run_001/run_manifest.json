@@ -1,0 +1,102 @@
+{
+  "run_id": "run_001",
+  "created_at": "2026-03-26T06:16:25.510950+00:00",
+  "finished_at": "2026-03-26T06:16:32.285395+00:00",
+  "workspace": "asset",
+  "ruleset": "account",
+  "knowledgebase": {
+    "path": "/home/che/LocalAppStore/Apps/recon-matching/workspace/outputs/knowledgebase/rulesets/asset/account"
+  },
+  "dataset": {
+    "source_absolute_path": "/home/che/LocalAppStore/Apps/recon-matching/workspace/asset/account/datasets/active_experiment/dataset.csv",
+    "replay_copy_relative_path": "dataset_file.csv"
+  },
+  "config": {},
+  "waterfall": [
+    {
+      "step_id": 1,
+      "rule_id": "EXCL_CUST_DERIV",
+      "operator": "exclude_by_predicates",
+      "status": "ok",
+      "records_removed_from_pool": 30,
+      "new_match_groups": 30,
+      "new_matched_records": 30,
+      "duration_ms": 123
+    },
+    {
+      "step_id": 2,
+      "rule_id": "EXCL_COLLATERAL",
+      "operator": "exclude_by_predicates",
+      "status": "ok",
+      "records_removed_from_pool": 10,
+      "new_match_groups": 10,
+      "new_matched_records": 10,
+      "duration_ms": 127
+    },
+    {
+      "step_id": 3,
+      "rule_id": "EXCL_FX_HEDGE",
+      "operator": "exclude_by_predicates",
+      "status": "ok",
+      "records_removed_from_pool": 5,
+      "new_match_groups": 5,
+      "new_matched_records": 5,
+      "duration_ms": 93
+    },
+    {
+      "step_id": 4,
+      "rule_id": "EXACT_MATCH_FUND",
+      "operator": "one_to_one_ranked",
+      "status": "ok",
+      "records_removed_from_pool": 14,
+      "new_match_groups": 7,
+      "new_matched_records": 14,
+      "duration_ms": 492
+    },
+    {
+      "step_id": 5,
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "operator": "one_to_one_ranked",
+      "status": "ok",
+      "records_removed_from_pool": 100,
+      "new_match_groups": 50,
+      "new_matched_records": 100,
+      "duration_ms": 3220
+    },
+    {
+      "step_id": 6,
+      "rule_id": "SEC_ID_ISSUE_MULTI",
+      "operator": "many_to_many_balance_k",
+      "status": "ok",
+      "records_removed_from_pool": 30,
+      "new_match_groups": 10,
+      "new_matched_records": 30,
+      "duration_ms": 1079
+    },
+    {
+      "step_id": 7,
+      "rule_id": "ZERO_POS",
+      "operator": "one_sided",
+      "status": "ok",
+      "records_removed_from_pool": 12,
+      "new_match_groups": 6,
+      "new_matched_records": 12,
+      "duration_ms": 462
+    }
+  ],
+  "outputs": {
+    "exclusions_csv": "exclusions.csv",
+    "matches_csv": "matches.csv",
+    "breaks_csv": "breaks.csv",
+    "exclusions_reasoning_json": "exclusions_reasoning.json",
+    "matches_reasoning_json": "matches_reasoning.json",
+    "breaks_reasoning_json": "breaks_reasoning.json",
+    "matching_queries_sql": "matching_queries.sql"
+  },
+  "summary": {
+    "total_input_records": 402,
+    "total_excluded": 45,
+    "total_matched": 156,
+    "total_breaks": 201
+  }
+}

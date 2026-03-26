@@ -1,0 +1,82 @@
+{
+  "run_id": "run_001",
+  "dataset_type": "two_sided",
+  "dataset": {
+    "replay_copy_relative_path": "dataset_file.csv",
+    "row_count": 402,
+    "side_counts": {
+      "A": 160,
+      "B": 242
+    }
+  },
+  "columns": {
+    "present": [
+      "side",
+      "fund",
+      "source",
+      "type",
+      "nav",
+      "broker_code",
+      "statement_id",
+      "record_id",
+      "blk_cusip",
+      "sec_id_type",
+      "sec_id",
+      "sec_desc",
+      "orig_face",
+      "cur_par",
+      "fee_amt",
+      "collateral",
+      "restricted",
+      "ind_amt",
+      "recv_amount",
+      "deliv_amount",
+      "avail_amt",
+      "deal_amount",
+      "foreign_amount",
+      "sec_type",
+      "sec_group",
+      "ext_asset_info",
+      "ref_entity",
+      "maturity",
+      "price_date",
+      "ext_asset_info_null_safe",
+      "sec_type_null_safe",
+      "orig_face_plus_fee_amt_factor_plus_1",
+      "orig_face_minus_collateral_factor_minus_1",
+      "fail_face_coll",
+      "orig_face_abs"
+    ],
+    "missing_required": []
+  },
+  "amount_columns": {
+    "detected": [
+      "fund",
+      "statement_id",
+      "record_id",
+      "orig_face",
+      "cur_par",
+      "fee_amt",
+      "collateral",
+      "restricted",
+      "ind_amt",
+      "recv_amount",
+      "deliv_amount",
+      "avail_amt",
+      "deal_amount",
+      "foreign_amount",
+      "orig_face_plus_fee_amt_factor_plus_1",
+      "orig_face_minus_collateral_factor_minus_1",
+      "fail_face_coll",
+      "orig_face_abs"
+    ]
+  },
+  "blocking_quality": {
+    "fund+blk_cusip": {
+      "coverage_rate": 1.0
+    },
+    "fund+sec_id": {
+      "coverage_rate": 1.0
+    }
+  }
+}

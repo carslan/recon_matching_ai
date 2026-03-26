@@ -1,0 +1,1063 @@
+{
+  "run_id": "20260326061755_94c82210",
+  "total_events": 66,
+  "events": [
+    {
+      "seq": 1,
+      "timestamp": "2026-03-26T06:17:55.116387+00:00",
+      "actor": "boot",
+      "action": "Boot pipeline complete",
+      "level": "info",
+      "detail": {
+        "kb_dir": "/home/che/LocalAppStore/Apps/recon-matching/workspace/knowledgebase/rulesets/asset/account",
+        "run_dir": "/home/che/LocalAppStore/Apps/recon-matching/workspace/outputs/2026-03-26/asset/account/20260326061755_94c82210",
+        "waterfall_steps": 7,
+        "schema_columns": 35,
+        "number_columns": 18,
+        "blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ]
+      }
+    },
+    {
+      "seq": 2,
+      "timestamp": "2026-03-26T06:17:55.116871+00:00",
+      "actor": "orchestrator",
+      "action": "Initialized",
+      "level": "decision",
+      "detail": {
+        "run_id": "20260326061755_94c82210",
+        "waterfall_steps": 7,
+        "rules": [
+          "EXCL_CUST_DERIV",
+          "EXCL_COLLATERAL",
+          "EXCL_FX_HEDGE",
+          "EXACT_MATCH_FUND",
+          "EXACT_MATCH_BLKCUSIP",
+          "SEC_ID_ISSUE_MULTI",
+          "ZERO_POS"
+        ]
+      }
+    },
+    {
+      "seq": 3,
+      "timestamp": "2026-03-26T06:17:55.116898+00:00",
+      "actor": "orchestrator",
+      "action": "Run started",
+      "level": "info",
+      "detail": {
+        "run_id": "20260326061755_94c82210",
+        "started_at": "2026-03-26T06:17:55.116890+00:00"
+      }
+    },
+    {
+      "seq": 4,
+      "timestamp": "2026-03-26T06:17:55.117191+00:00",
+      "actor": "orchestrator",
+      "action": "Dispatching step 1",
+      "level": "decision",
+      "detail": {
+        "rule_id": "EXCL_CUST_DERIV",
+        "operator": "exclude_by_predicates",
+        "params_keys": [
+          "side_a_filter",
+          "side_b_filter"
+        ]
+      }
+    },
+    {
+      "seq": 5,
+      "timestamp": "2026-03-26T06:17:55.117315+00:00",
+      "actor": "executor",
+      "action": "Received ExecutorRequest for step 1",
+      "level": "info",
+      "detail": {
+        "rule_id": "EXCL_CUST_DERIV",
+        "operator": "exclude_by_predicates",
+        "params": {
+          "side_a_filter": "(ext_asset_info_null_safe IN ('FUT', 'OPT', 'BKL', 'BFW', 'FRA', 'RP', 'RVRP', 'TRP', 'RTRP') AND sec_type_null_safe NOT IN ('MUNI', 'GOVT', 'CD', 'AGENCY', 'CORP'))",
+          "side_b_filter": "(ext_asset_info_null_safe IN ('FUT', 'OPT', 'BKL', 'BFW', 'FRA', 'RP', 'RVRP', 'TRP', 'RTRP') AND sec_type_null_safe NOT IN ('MUNI', 'GOVT', 'CD', 'AGENCY', 'CORP'))",
+          "side_filter": null,
+          "blocking_strategy": null,
+          "comparisons": null,
+          "group_by": null
+        }
+      }
+    },
+    {
+      "seq": 6,
+      "timestamp": "2026-03-26T06:17:55.117351+00:00",
+      "actor": "executor",
+      "action": "Initializing DuckDB",
+      "level": "info",
+      "detail": {
+        "dataset": "/home/che/LocalAppStore/Apps/recon-matching/workspace/outputs/2026-03-26/asset/account/20260326061755_94c82210/dataset_file.csv"
+      }
+    },
+    {
+      "seq": 7,
+      "timestamp": "2026-03-26T06:17:55.152253+00:00",
+      "actor": "duckdb",
+      "action": "Database created",
+      "level": "info",
+      "detail": {
+        "path": "/home/che/LocalAppStore/Apps/recon-matching/workspace/outputs/2026-03-26/asset/account/20260326061755_94c82210/run.duckdb"
+      }
+    },
+    {
+      "seq": 8,
+      "timestamp": "2026-03-26T06:17:55.352969+00:00",
+      "actor": "duckdb",
+      "action": "Dataset loaded into base_dataset",
+      "level": "info",
+      "detail": null
+    },
+    {
+      "seq": 9,
+      "timestamp": "2026-03-26T06:17:55.451997+00:00",
+      "actor": "duckdb",
+      "action": "Pool initialized",
+      "level": "info",
+      "detail": {
+        "pool_size": 402
+      }
+    },
+    {
+      "seq": 10,
+      "timestamp": "2026-03-26T06:17:55.492480+00:00",
+      "actor": "executor",
+      "action": "Dataset profiled",
+      "level": "data",
+      "detail": {
+        "dataset_type": "two_sided",
+        "row_count": 402,
+        "side_counts": {
+          "A": 160,
+          "B": 242
+        },
+        "amount_columns": [
+          "fund",
+          "statement_id",
+          "record_id",
+          "orig_face",
+          "cur_par",
+          "fee_amt",
+          "collateral",
+          "restricted",
+          "ind_amt",
+          "recv_amount",
+          "deliv_amount",
+          "avail_amt",
+          "deal_amount",
+          "foreign_amount",
+          "orig_face_plus_fee_amt_factor_plus_1",
+          "orig_face_minus_collateral_factor_minus_1",
+          "fail_face_coll",
+          "orig_face_abs"
+        ],
+        "blocking_quality": {
+          "fund+blk_cusip": {
+            "coverage_rate": 1.0
+          },
+          "fund+sec_id": {
+            "coverage_rate": 1.0
+          }
+        }
+      }
+    },
+    {
+      "seq": 11,
+      "timestamp": "2026-03-26T06:17:55.530172+00:00",
+      "actor": "executor",
+      "action": "Pool before step 1: 402 records",
+      "level": "info",
+      "detail": null
+    },
+    {
+      "seq": 12,
+      "timestamp": "2026-03-26T06:17:55.559468+00:00",
+      "actor": "duckdb",
+      "action": "Executing operator: exclude_by_predicates",
+      "level": "info",
+      "detail": {
+        "rule_id": "EXCL_CUST_DERIV",
+        "step_id": 1
+      }
+    },
+    {
+      "seq": 13,
+      "timestamp": "2026-03-26T06:17:55.594034+00:00",
+      "actor": "duckdb",
+      "action": "SQL: exclude_by_predicates / EXCL_CUST_DERIV",
+      "level": "sql",
+      "detail": {
+        "sql": "\n            INSERT INTO matched_records (match_group_id, side, statement_id, record_id, rule_id, step_id, operator)\n            SELECT\n                'EXCL_' || record_id AS match_group_id,\n                side, statement_id, record_id,\n                'EXCL_CUST_DERIV', 1, 'exclude_by_predicates'\n            FROM pool_unmatched\n            WHERE side = 'A' AND (ext_asset_info_null_safe IN ('FUT', 'OPT', 'BKL', 'BFW', 'FRA', 'RP', 'RVRP', 'TRP', 'RTRP') AND sec_type_null_safe NOT IN ('MUNI', 'GOVT', 'CD', 'AGENCY', 'CORP'))\n        \n\n            INSERT INTO matched_records (match_group_id, side, statement_id, record_id, rule_id, step_id, operator)\n            SELECT\n                'EXCL_' || record_id AS match_group_id,\n                side, statement_id, record_id,\n                'EXCL_CUST_DERIV', 1, 'exclude_by_predicates'\n            FROM pool_unmatched\n            WHERE side = 'B' AND (ext_asset_info_null_safe IN ('FUT', 'OPT', 'BKL', 'BFW', 'FRA', 'RP', 'RVRP', 'TRP', 'RTRP') AND sec_type_null_safe NOT IN ('MUNI', 'GOVT', 'CD', 'AGENCY', 'CORP'))\n        "
+      }
+    },
+    {
+      "seq": 14,
+      "timestamp": "2026-03-26T06:17:55.594075+00:00",
+      "actor": "duckdb",
+      "action": "Operator exclude_by_predicates produced 30 groups",
+      "level": "data",
+      "detail": {
+        "groups_count": 30,
+        "sample_group": {
+          "rule_id": "EXCL_CUST_DERIV",
+          "record_refs": [
+            {
+              "side": "A",
+              "statement_id": "354199217",
+              "record_id": "35630639000"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "seq": 15,
+      "timestamp": "2026-03-26T06:17:55.671255+00:00",
+      "actor": "executor",
+      "action": "Step 1 execution complete",
+      "level": "info",
+      "detail": {
+        "status": "ok",
+        "pool_before": 402,
+        "pool_after": 372,
+        "removed": 30,
+        "match_groups": 30,
+        "matched_records": 30
+      }
+    },
+    {
+      "seq": 16,
+      "timestamp": "2026-03-26T06:17:55.705546+00:00",
+      "actor": "orchestrator",
+      "action": "Step 1 result received",
+      "level": "info",
+      "detail": {
+        "rule_id": "EXCL_CUST_DERIV",
+        "status": "ok",
+        "removed": 30,
+        "groups": 30,
+        "matched": 30,
+        "duration_ms": 106,
+        "pool_after": 372
+      }
+    },
+    {
+      "seq": 17,
+      "timestamp": "2026-03-26T06:17:55.705602+00:00",
+      "actor": "orchestrator",
+      "action": "Dispatching step 2",
+      "level": "decision",
+      "detail": {
+        "rule_id": "EXCL_COLLATERAL",
+        "operator": "exclude_by_predicates",
+        "params_keys": [
+          "side_a_filter",
+          "side_b_filter"
+        ]
+      }
+    },
+    {
+      "seq": 18,
+      "timestamp": "2026-03-26T06:17:55.705725+00:00",
+      "actor": "executor",
+      "action": "Received ExecutorRequest for step 2",
+      "level": "info",
+      "detail": {
+        "rule_id": "EXCL_COLLATERAL",
+        "operator": "exclude_by_predicates",
+        "params": {
+          "side_a_filter": "(sec_group == 'CASH' AND sec_type_null_safe == 'COLLATERAL')",
+          "side_b_filter": "(sec_group == 'CASH' AND sec_type_null_safe == 'COLLATERAL')",
+          "side_filter": null,
+          "blocking_strategy": null,
+          "comparisons": null,
+          "group_by": null
+        }
+      }
+    },
+    {
+      "seq": 19,
+      "timestamp": "2026-03-26T06:17:55.742652+00:00",
+      "actor": "executor",
+      "action": "Pool before step 2: 372 records",
+      "level": "info",
+      "detail": null
+    },
+    {
+      "seq": 20,
+      "timestamp": "2026-03-26T06:17:55.775594+00:00",
+      "actor": "duckdb",
+      "action": "Executing operator: exclude_by_predicates",
+      "level": "info",
+      "detail": {
+        "rule_id": "EXCL_COLLATERAL",
+        "step_id": 2
+      }
+    },
+    {
+      "seq": 21,
+      "timestamp": "2026-03-26T06:17:55.805970+00:00",
+      "actor": "duckdb",
+      "action": "SQL: exclude_by_predicates / EXCL_COLLATERAL",
+      "level": "sql",
+      "detail": {
+        "sql": "\n            INSERT INTO matched_records (match_group_id, side, statement_id, record_id, rule_id, step_id, operator)\n            SELECT\n                'EXCL_' || record_id AS match_group_id,\n                side, statement_id, record_id,\n                'EXCL_COLLATERAL', 2, 'exclude_by_predicates'\n            FROM pool_unmatched\n            WHERE side = 'A' AND (sec_group == 'CASH' AND sec_type_null_safe == 'COLLATERAL')\n        \n\n            INSERT INTO matched_records (match_group_id, side, statement_id, record_id, rule_id, step_id, operator)\n            SELECT\n                'EXCL_' || record_id AS match_group_id,\n                side, statement_id, record_id,\n                'EXCL_COLLATERAL', 2, 'exclude_by_predicates'\n            FROM pool_unmatched\n            WHERE side = 'B' AND (sec_group == 'CASH' AND sec_type_null_safe == 'COLLATERAL')\n        "
+      }
+    },
+    {
+      "seq": 22,
+      "timestamp": "2026-03-26T06:17:55.806012+00:00",
+      "actor": "duckdb",
+      "action": "Operator exclude_by_predicates produced 10 groups",
+      "level": "data",
+      "detail": {
+        "groups_count": 10,
+        "sample_group": {
+          "rule_id": "EXCL_COLLATERAL",
+          "record_refs": [
+            {
+              "side": "A",
+              "statement_id": "354199217",
+              "record_id": "35630639030"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "seq": 23,
+      "timestamp": "2026-03-26T06:17:55.884813+00:00",
+      "actor": "executor",
+      "action": "Step 2 execution complete",
+      "level": "info",
+      "detail": {
+        "status": "ok",
+        "pool_before": 372,
+        "pool_after": 362,
+        "removed": 10,
+        "match_groups": 10,
+        "matched_records": 10
+      }
+    },
+    {
+      "seq": 24,
+      "timestamp": "2026-03-26T06:17:55.920220+00:00",
+      "actor": "orchestrator",
+      "action": "Step 2 result received",
+      "level": "info",
+      "detail": {
+        "rule_id": "EXCL_COLLATERAL",
+        "status": "ok",
+        "removed": 10,
+        "groups": 10,
+        "matched": 10,
+        "duration_ms": 107,
+        "pool_after": 362
+      }
+    },
+    {
+      "seq": 25,
+      "timestamp": "2026-03-26T06:17:55.920292+00:00",
+      "actor": "orchestrator",
+      "action": "Dispatching step 3",
+      "level": "decision",
+      "detail": {
+        "rule_id": "EXCL_FX_HEDGE",
+        "operator": "exclude_by_predicates",
+        "params_keys": [
+          "side_a_filter"
+        ]
+      }
+    },
+    {
+      "seq": 26,
+      "timestamp": "2026-03-26T06:17:55.920413+00:00",
+      "actor": "executor",
+      "action": "Received ExecutorRequest for step 3",
+      "level": "info",
+      "detail": {
+        "rule_id": "EXCL_FX_HEDGE",
+        "operator": "exclude_by_predicates",
+        "params": {
+          "side_a_filter": "(sec_group == 'FX' AND type == 'HEDGE')",
+          "side_b_filter": null,
+          "side_filter": null,
+          "blocking_strategy": null,
+          "comparisons": null,
+          "group_by": null
+        }
+      }
+    },
+    {
+      "seq": 27,
+      "timestamp": "2026-03-26T06:17:55.956402+00:00",
+      "actor": "executor",
+      "action": "Pool before step 3: 362 records",
+      "level": "info",
+      "detail": null
+    },
+    {
+      "seq": 28,
+      "timestamp": "2026-03-26T06:17:55.987594+00:00",
+      "actor": "duckdb",
+      "action": "Executing operator: exclude_by_predicates",
+      "level": "info",
+      "detail": {
+        "rule_id": "EXCL_FX_HEDGE",
+        "step_id": 3
+      }
+    },
+    {
+      "seq": 29,
+      "timestamp": "2026-03-26T06:17:56.003163+00:00",
+      "actor": "duckdb",
+      "action": "SQL: exclude_by_predicates / EXCL_FX_HEDGE",
+      "level": "sql",
+      "detail": {
+        "sql": "\n            INSERT INTO matched_records (match_group_id, side, statement_id, record_id, rule_id, step_id, operator)\n            SELECT\n                'EXCL_' || record_id AS match_group_id,\n                side, statement_id, record_id,\n                'EXCL_FX_HEDGE', 3, 'exclude_by_predicates'\n            FROM pool_unmatched\n            WHERE side = 'A' AND (sec_group == 'FX' AND type == 'HEDGE')\n        "
+      }
+    },
+    {
+      "seq": 30,
+      "timestamp": "2026-03-26T06:17:56.003202+00:00",
+      "actor": "duckdb",
+      "action": "Operator exclude_by_predicates produced 5 groups",
+      "level": "data",
+      "detail": {
+        "groups_count": 5,
+        "sample_group": {
+          "rule_id": "EXCL_FX_HEDGE",
+          "record_refs": [
+            {
+              "side": "A",
+              "statement_id": "354199217",
+              "record_id": "35630639040"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "seq": 31,
+      "timestamp": "2026-03-26T06:17:56.080731+00:00",
+      "actor": "executor",
+      "action": "Step 3 execution complete",
+      "level": "info",
+      "detail": {
+        "status": "ok",
+        "pool_before": 362,
+        "pool_after": 357,
+        "removed": 5,
+        "match_groups": 5,
+        "matched_records": 5
+      }
+    },
+    {
+      "seq": 32,
+      "timestamp": "2026-03-26T06:17:56.117096+00:00",
+      "actor": "orchestrator",
+      "action": "Step 3 result received",
+      "level": "info",
+      "detail": {
+        "rule_id": "EXCL_FX_HEDGE",
+        "status": "ok",
+        "removed": 5,
+        "groups": 5,
+        "matched": 5,
+        "duration_ms": 87,
+        "pool_after": 357
+      }
+    },
+    {
+      "seq": 33,
+      "timestamp": "2026-03-26T06:17:56.117151+00:00",
+      "actor": "orchestrator",
+      "action": "Dispatching step 4",
+      "level": "decision",
+      "detail": {
+        "rule_id": "EXACT_MATCH_FUND",
+        "operator": "one_to_one_ranked",
+        "params_keys": [
+          "side_a_filter",
+          "side_b_filter",
+          "blocking_strategy",
+          "comparisons"
+        ]
+      }
+    },
+    {
+      "seq": 34,
+      "timestamp": "2026-03-26T06:17:56.117366+00:00",
+      "actor": "executor",
+      "action": "Received ExecutorRequest for step 4",
+      "level": "info",
+      "detail": {
+        "rule_id": "EXACT_MATCH_FUND",
+        "operator": "one_to_one_ranked",
+        "params": {
+          "side_a_filter": "(sec_group == 'FUND')",
+          "side_b_filter": "(sec_group == 'FUND')",
+          "side_filter": null,
+          "blocking_strategy": {
+            "keys_a": [
+              "blk_cusip"
+            ],
+            "keys_b": [
+              "blk_cusip"
+            ]
+          },
+          "comparisons": [
+            {
+              "column_a": "orig_face",
+              "column_b": "orig_face",
+              "tolerance": 0.01,
+              "tolerance_type": "abs",
+              "tolerance_behavior": "exclusive",
+              "aggregation": null,
+              "required": true
+            }
+          ],
+          "group_by": null
+        }
+      }
+    },
+    {
+      "seq": 35,
+      "timestamp": "2026-03-26T06:17:56.149993+00:00",
+      "actor": "executor",
+      "action": "Pool before step 4: 357 records",
+      "level": "info",
+      "detail": null
+    },
+    {
+      "seq": 36,
+      "timestamp": "2026-03-26T06:17:56.181749+00:00",
+      "actor": "duckdb",
+      "action": "Executing operator: one_to_one_ranked",
+      "level": "info",
+      "detail": {
+        "rule_id": "EXACT_MATCH_FUND",
+        "step_id": 4
+      }
+    },
+    {
+      "seq": 37,
+      "timestamp": "2026-03-26T06:17:56.587350+00:00",
+      "actor": "duckdb",
+      "action": "SQL: one_to_one_ranked / EXACT_MATCH_FUND",
+      "level": "sql",
+      "detail": {
+        "sql": "\n        WITH candidates AS (\n            SELECT\n                a.record_id AS a_record_id, a.side AS a_side, a.statement_id AS a_statement_id,\n                b.record_id AS b_record_id, b.side AS b_side, b.statement_id AS b_statement_id,\n                ABS(CAST(a.orig_face AS DOUBLE) - CAST(b.orig_face AS DOUBLE)) AS match_score,\n                ROW_NUMBER() OVER (PARTITION BY a.record_id ORDER BY ABS(CAST(a.orig_face AS DOUBLE) - CAST(b.orig_face AS DOUBLE)), b.record_id) AS rank_for_a,\n                ROW_NUMBER() OVER (PARTITION BY b.record_id ORDER BY ABS(CAST(a.orig_face AS DOUBLE) - CAST(b.orig_face AS DOUBLE)), a.record_id) AS rank_for_b\n            FROM pool_unmatched a\n            JOIN pool_unmatched b ON a.side = 'A' AND b.side = 'B'\n                AND a.blk_cusip = b.blk_cusip\n            WHERE ((a.sec_group == 'FUND')) AND ((b.sec_group == 'FUND'))\n                AND ABS(CAST(a.orig_face AS DOUBLE) - CAST(b.orig_face AS DOUBLE)) < 0.01\n        ),\n        mutual_best AS (\n            SELECT * FROM candidates WHERE rank_for_a = 1 AND rank_for_b = 1\n        )\n        SELECT a_record_id, a_side, a_statement_id, b_record_id, b_side, b_statement_id, match_score\n        FROM mutual_best\n    "
+      }
+    },
+    {
+      "seq": 38,
+      "timestamp": "2026-03-26T06:17:56.587387+00:00",
+      "actor": "duckdb",
+      "action": "Operator one_to_one_ranked produced 7 groups",
+      "level": "data",
+      "detail": {
+        "groups_count": 7,
+        "sample_group": {
+          "match_group_id": "MG_4_000001",
+          "group_type": "one_to_one",
+          "rule_id": "EXACT_MATCH_FUND",
+          "record_refs": [
+            {
+              "side": "A",
+              "statement_id": "354199217",
+              "record_id": "35630639059"
+            },
+            {
+              "side": "B",
+              "statement_id": "354199212",
+              "record_id": "35630639060"
+            }
+          ],
+          "match_score": 0.00999999999839929
+        }
+      }
+    },
+    {
+      "seq": 39,
+      "timestamp": "2026-03-26T06:17:56.669366+00:00",
+      "actor": "executor",
+      "action": "Step 4 execution complete",
+      "level": "info",
+      "detail": {
+        "status": "ok",
+        "pool_before": 357,
+        "pool_after": 343,
+        "removed": 14,
+        "match_groups": 7,
+        "matched_records": 14
+      }
+    },
+    {
+      "seq": 40,
+      "timestamp": "2026-03-26T06:17:56.705290+00:00",
+      "actor": "orchestrator",
+      "action": "Step 4 result received",
+      "level": "info",
+      "detail": {
+        "rule_id": "EXACT_MATCH_FUND",
+        "status": "ok",
+        "removed": 14,
+        "groups": 7,
+        "matched": 14,
+        "duration_ms": 484,
+        "pool_after": 343
+      }
+    },
+    {
+      "seq": 41,
+      "timestamp": "2026-03-26T06:17:56.705353+00:00",
+      "actor": "orchestrator",
+      "action": "Dispatching step 5",
+      "level": "decision",
+      "detail": {
+        "rule_id": "EXACT_MATCH_BLKCUSIP",
+        "operator": "one_to_one_ranked",
+        "params_keys": [
+          "blocking_strategy",
+          "comparisons"
+        ]
+      }
+    },
+    {
+      "seq": 42,
+      "timestamp": "2026-03-26T06:17:56.705552+00:00",
+      "actor": "executor",
+      "action": "Received ExecutorRequest for step 5",
+      "level": "info",
+      "detail": {
+        "rule_id": "EXACT_MATCH_BLKCUSIP",
+        "operator": "one_to_one_ranked",
+        "params": {
+          "side_a_filter": null,
+          "side_b_filter": null,
+          "side_filter": null,
+          "blocking_strategy": {
+            "keys_a": [
+              "blk_cusip"
+            ],
+            "keys_b": [
+              "blk_cusip"
+            ]
+          },
+          "comparisons": [
+            {
+              "column_a": "orig_face",
+              "column_b": "orig_face",
+              "tolerance": 0.005,
+              "tolerance_type": "abs",
+              "tolerance_behavior": "inclusive",
+              "aggregation": null,
+              "required": true
+            }
+          ],
+          "group_by": null
+        }
+      }
+    },
+    {
+      "seq": 43,
+      "timestamp": "2026-03-26T06:17:56.742950+00:00",
+      "actor": "executor",
+      "action": "Pool before step 5: 343 records",
+      "level": "info",
+      "detail": null
+    },
+    {
+      "seq": 44,
+      "timestamp": "2026-03-26T06:17:56.774764+00:00",
+      "actor": "duckdb",
+      "action": "Executing operator: one_to_one_ranked",
+      "level": "info",
+      "detail": {
+        "rule_id": "EXACT_MATCH_BLKCUSIP",
+        "step_id": 5
+      }
+    },
+    {
+      "seq": 45,
+      "timestamp": "2026-03-26T06:17:59.571575+00:00",
+      "actor": "duckdb",
+      "action": "SQL: one_to_one_ranked / EXACT_MATCH_BLKCUSIP",
+      "level": "sql",
+      "detail": {
+        "sql": "\n        WITH candidates AS (\n            SELECT\n                a.record_id AS a_record_id, a.side AS a_side, a.statement_id AS a_statement_id,\n                b.record_id AS b_record_id, b.side AS b_side, b.statement_id AS b_statement_id,\n                ABS(CAST(a.orig_face AS DOUBLE) - CAST(b.orig_face AS DOUBLE)) AS match_score,\n                ROW_NUMBER() OVER (PARTITION BY a.record_id ORDER BY ABS(CAST(a.orig_face AS DOUBLE) - CAST(b.orig_face AS DOUBLE)), b.record_id) AS rank_for_a,\n                ROW_NUMBER() OVER (PARTITION BY b.record_id ORDER BY ABS(CAST(a.orig_face AS DOUBLE) - CAST(b.orig_face AS DOUBLE)), a.record_id) AS rank_for_b\n            FROM pool_unmatched a\n            JOIN pool_unmatched b ON a.side = 'A' AND b.side = 'B'\n                AND a.blk_cusip = b.blk_cusip\n            WHERE (1=1) AND (1=1)\n                AND ABS(CAST(a.orig_face AS DOUBLE) - CAST(b.orig_face AS DOUBLE)) <= 0.005\n        ),\n        mutual_best AS (\n            SELECT * FROM candidates WHERE rank_for_a = 1 AND rank_for_b = 1\n        )\n        SELECT a_record_id, a_side, a_statement_id, b_record_id, b_side, b_statement_id, match_score\n        FROM mutual_best\n    "
+      }
+    },
+    {
+      "seq": 46,
+      "timestamp": "2026-03-26T06:17:59.571615+00:00",
+      "actor": "duckdb",
+      "action": "Operator one_to_one_ranked produced 50 groups",
+      "level": "data",
+      "detail": {
+        "groups_count": 50,
+        "sample_group": {
+          "match_group_id": "MG_5_000001",
+          "group_type": "one_to_one",
+          "rule_id": "EXACT_MATCH_BLKCUSIP",
+          "record_refs": [
+            {
+              "side": "A",
+              "statement_id": "354199217",
+              "record_id": "35630639095"
+            },
+            {
+              "side": "B",
+              "statement_id": "354199212",
+              "record_id": "35630639096"
+            }
+          ],
+          "match_score": 0.0
+        }
+      }
+    },
+    {
+      "seq": 47,
+      "timestamp": "2026-03-26T06:17:59.650943+00:00",
+      "actor": "executor",
+      "action": "Step 5 execution complete",
+      "level": "info",
+      "detail": {
+        "status": "ok",
+        "pool_before": 343,
+        "pool_after": 243,
+        "removed": 100,
+        "match_groups": 50,
+        "matched_records": 100
+      }
+    },
+    {
+      "seq": 48,
+      "timestamp": "2026-03-26T06:17:59.692981+00:00",
+      "actor": "orchestrator",
+      "action": "Step 5 result received",
+      "level": "info",
+      "detail": {
+        "rule_id": "EXACT_MATCH_BLKCUSIP",
+        "status": "ok",
+        "removed": 100,
+        "groups": 50,
+        "matched": 100,
+        "duration_ms": 2873,
+        "pool_after": 243
+      }
+    },
+    {
+      "seq": 49,
+      "timestamp": "2026-03-26T06:17:59.693039+00:00",
+      "actor": "orchestrator",
+      "action": "Dispatching step 6",
+      "level": "decision",
+      "detail": {
+        "rule_id": "SEC_ID_ISSUE_MULTI",
+        "operator": "many_to_many_balance_k",
+        "params_keys": [
+          "side_a_filter",
+          "side_b_filter",
+          "blocking_strategy",
+          "comparisons"
+        ]
+      }
+    },
+    {
+      "seq": 50,
+      "timestamp": "2026-03-26T06:17:59.693260+00:00",
+      "actor": "executor",
+      "action": "Received ExecutorRequest for step 6",
+      "level": "info",
+      "detail": {
+        "rule_id": "SEC_ID_ISSUE_MULTI",
+        "operator": "many_to_many_balance_k",
+        "params": {
+          "side_a_filter": "(((source IN ('S', 'B')) AND (ref_entity == 'Multiple')) OR (source == 'P'))",
+          "side_b_filter": "(((source IN ('S', 'B')) AND (ref_entity == 'Multiple')) OR (source == 'P'))",
+          "side_filter": null,
+          "blocking_strategy": {
+            "keys_a": [
+              "blk_cusip"
+            ],
+            "keys_b": [
+              "blk_cusip"
+            ]
+          },
+          "comparisons": [
+            {
+              "column_a": "orig_face",
+              "column_b": "orig_face",
+              "tolerance": 0.001,
+              "tolerance_type": "abs",
+              "tolerance_behavior": "exclusive",
+              "aggregation": "SumIgnoreNulls",
+              "required": true
+            }
+          ],
+          "group_by": null
+        }
+      }
+    },
+    {
+      "seq": 51,
+      "timestamp": "2026-03-26T06:17:59.728366+00:00",
+      "actor": "executor",
+      "action": "Pool before step 6: 243 records",
+      "level": "info",
+      "detail": null
+    },
+    {
+      "seq": 52,
+      "timestamp": "2026-03-26T06:17:59.760687+00:00",
+      "actor": "duckdb",
+      "action": "Executing operator: many_to_many_balance_k",
+      "level": "info",
+      "detail": {
+        "rule_id": "SEC_ID_ISSUE_MULTI",
+        "step_id": 6
+      }
+    },
+    {
+      "seq": 53,
+      "timestamp": "2026-03-26T06:18:00.691796+00:00",
+      "actor": "duckdb",
+      "action": "SQL: many_to_many_balance_k / SEC_ID_ISSUE_MULTI",
+      "level": "sql",
+      "detail": {
+        "sql": "\n        WITH side_a_agg AS (\n            SELECT blk_cusip, COALESCE(SUM(CAST(orig_face AS DOUBLE)), 0) AS agg_orig_face\n            FROM pool_unmatched a WHERE side = 'A' AND ((((source IN ('S', 'B')) AND (ref_entity == 'Multiple')) OR (source == 'P')))\n            GROUP BY blk_cusip\n        ),\n        side_b_agg AS (\n            SELECT blk_cusip, COALESCE(SUM(CAST(orig_face AS DOUBLE)), 0) AS agg_orig_face\n            FROM pool_unmatched b WHERE side = 'B' AND ((((source IN ('S', 'B')) AND (ref_entity == 'Multiple')) OR (source == 'P')))\n            GROUP BY blk_cusip\n        ),\n        balanced_blocks AS (\n            SELECT sa.blk_cusip AS block_key\n            FROM side_a_agg sa\n            JOIN side_b_agg sb ON sa.blk_cusip = sb.blk_cusip\n            WHERE ABS(sa.agg_orig_face - sb.agg_orig_face) < 0.001\n        )\n        SELECT block_key FROM balanced_blocks\n    "
+      }
+    },
+    {
+      "seq": 54,
+      "timestamp": "2026-03-26T06:18:00.691835+00:00",
+      "actor": "duckdb",
+      "action": "Operator many_to_many_balance_k produced 10 groups",
+      "level": "data",
+      "detail": {
+        "groups_count": 10,
+        "sample_group": {
+          "match_group_id": "MG_6_000001",
+          "group_type": "many_to_many_balance_k",
+          "rule_id": "SEC_ID_ISSUE_MULTI",
+          "record_refs": [
+            {
+              "side": "A",
+              "statement_id": "354199217",
+              "record_id": "35630639186"
+            },
+            {
+              "side": "B",
+              "statement_id": "354199212",
+              "record_id": "35630639187"
+            },
+            {
+              "side": "B",
+              "statement_id": "354199212",
+              "record_id": "35630639188"
+            }
+          ],
+          "block_key": "000207XX7"
+        }
+      }
+    },
+    {
+      "seq": 55,
+      "timestamp": "2026-03-26T06:18:00.774560+00:00",
+      "actor": "executor",
+      "action": "Step 6 execution complete",
+      "level": "info",
+      "detail": {
+        "status": "ok",
+        "pool_before": 243,
+        "pool_after": 213,
+        "removed": 30,
+        "match_groups": 10,
+        "matched_records": 30
+      }
+    },
+    {
+      "seq": 56,
+      "timestamp": "2026-03-26T06:18:00.811544+00:00",
+      "actor": "orchestrator",
+      "action": "Step 6 result received",
+      "level": "info",
+      "detail": {
+        "rule_id": "SEC_ID_ISSUE_MULTI",
+        "status": "ok",
+        "removed": 30,
+        "groups": 10,
+        "matched": 30,
+        "duration_ms": 1010,
+        "pool_after": 213
+      }
+    },
+    {
+      "seq": 57,
+      "timestamp": "2026-03-26T06:18:00.811608+00:00",
+      "actor": "orchestrator",
+      "action": "Dispatching step 7",
+      "level": "decision",
+      "detail": {
+        "rule_id": "ZERO_POS",
+        "operator": "one_sided",
+        "params_keys": [
+          "blocking_strategy",
+          "comparisons"
+        ]
+      }
+    },
+    {
+      "seq": 58,
+      "timestamp": "2026-03-26T06:18:00.811808+00:00",
+      "actor": "executor",
+      "action": "Received ExecutorRequest for step 7",
+      "level": "info",
+      "detail": {
+        "rule_id": "ZERO_POS",
+        "operator": "one_sided",
+        "params": {
+          "side_a_filter": null,
+          "side_b_filter": null,
+          "side_filter": null,
+          "blocking_strategy": {
+            "keys": [
+              "blk_cusip"
+            ]
+          },
+          "comparisons": [
+            {
+              "column": "orig_face",
+              "tolerance": 0.0,
+              "tolerance_type": "abs",
+              "aggregation": "SumIgnoreNulls",
+              "required": true
+            }
+          ],
+          "group_by": null
+        }
+      }
+    },
+    {
+      "seq": 59,
+      "timestamp": "2026-03-26T06:18:00.846517+00:00",
+      "actor": "executor",
+      "action": "Pool before step 7: 213 records",
+      "level": "info",
+      "detail": null
+    },
+    {
+      "seq": 60,
+      "timestamp": "2026-03-26T06:18:00.878632+00:00",
+      "actor": "duckdb",
+      "action": "Executing operator: one_sided",
+      "level": "info",
+      "detail": {
+        "rule_id": "ZERO_POS",
+        "step_id": 7
+      }
+    },
+    {
+      "seq": 61,
+      "timestamp": "2026-03-26T06:18:01.234174+00:00",
+      "actor": "duckdb",
+      "action": "SQL: one_sided / ZERO_POS",
+      "level": "sql",
+      "detail": {
+        "sql": "\n        WITH block_sums AS (\n            SELECT blk_cusip,\n                   COALESCE(SUM(CAST(orig_face AS DOUBLE)), 0) AS total,\n                   COUNT(*) AS cnt\n            FROM pool_unmatched\n            WHERE side = 'A' AND (1=1)\n            GROUP BY blk_cusip\n            HAVING cnt >= 2 AND ABS(COALESCE(SUM(CAST(orig_face AS DOUBLE)), 0)) <= 0.0\n        )\n        SELECT blk_cusip FROM block_sums\n    "
+      }
+    },
+    {
+      "seq": 62,
+      "timestamp": "2026-03-26T06:18:01.234212+00:00",
+      "actor": "duckdb",
+      "action": "Operator one_sided produced 6 groups",
+      "level": "data",
+      "detail": {
+        "groups_count": 6,
+        "sample_group": {
+          "match_group_id": "MG_7_000001",
+          "group_type": "one_sided",
+          "rule_id": "ZERO_POS",
+          "record_refs": [
+            {
+              "side": "A",
+              "statement_id": "354199217",
+              "record_id": "35630639205"
+            },
+            {
+              "side": "A",
+              "statement_id": "354199217",
+              "record_id": "35630639206"
+            }
+          ],
+          "block_key": "000305XX5"
+        }
+      }
+    },
+    {
+      "seq": 63,
+      "timestamp": "2026-03-26T06:18:01.315406+00:00",
+      "actor": "executor",
+      "action": "Step 7 execution complete",
+      "level": "info",
+      "detail": {
+        "status": "ok",
+        "pool_before": 213,
+        "pool_after": 201,
+        "removed": 12,
+        "match_groups": 6,
+        "matched_records": 12
+      }
+    },
+    {
+      "seq": 64,
+      "timestamp": "2026-03-26T06:18:01.352257+00:00",
+      "actor": "orchestrator",
+      "action": "Step 7 result received",
+      "level": "info",
+      "detail": {
+        "rule_id": "ZERO_POS",
+        "status": "ok",
+        "removed": 12,
+        "groups": 6,
+        "matched": 12,
+        "duration_ms": 432,
+        "pool_after": 201
+      }
+    },
+    {
+      "seq": 65,
+      "timestamp": "2026-03-26T06:18:01.352306+00:00",
+      "actor": "finalize",
+      "action": "Starting run finalization (CSV export + reasoning + manifest seal)",
+      "level": "info",
+      "detail": null
+    },
+    {
+      "seq": 66,
+      "timestamp": "2026-03-26T06:18:01.424829+00:00",
+      "actor": "orchestrator",
+      "action": "Run complete",
+      "level": "info",
+      "detail": {
+        "total_steps": 7,
+        "summary": {
+          "total_input_records": 402,
+          "total_excluded": 45,
+          "total_matched": 156,
+          "total_breaks": 201,
+          "total_steps_executed": 7
+        },
+        "duration_s": 6.24
+      }
+    }
+  ]
+}

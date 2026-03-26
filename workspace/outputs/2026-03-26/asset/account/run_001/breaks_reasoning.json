@@ -1,0 +1,3625 @@
+{
+  "workspace": "asset",
+  "ruleset": "account",
+  "run_id": "run_001",
+  "breaks": [
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639045"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000020XX0, orig_face=32410.9"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639047"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000021XX1, orig_face=37810.71"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639053"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000024XX4, orig_face=35807.64"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639207"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000400XX0, orig_face=14648.71"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639208"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000401XX1, orig_face=13240.52"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639209"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000402XX2, orig_face=46240.01"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639210"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000403XX3, orig_face=22713.41"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639211"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000404XX4, orig_face=43206.11"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639212"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000405XX5, orig_face=27965.94"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639213"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000406XX6, orig_face=3478.83"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639214"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000407XX7, orig_face=49964.84"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639215"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000408XX8, orig_face=41965.35"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639216"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000409XX9, orig_face=48480.82"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639217"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000410XX0, orig_face=46391.98"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639218"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000411XX1, orig_face=42586.09"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639219"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000412XX2, orig_face=9149.24"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639220"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000413XX3, orig_face=24796.42"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639221"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000414XX4, orig_face=11473.62"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639222"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000415XX5, orig_face=20650.97"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639223"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000416XX6, orig_face=3873.13"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639224"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000417XX7, orig_face=19569.68"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639225"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000418XX8, orig_face=49280.13"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639226"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000419XX9, orig_face=13994.95"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639227"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000420XX0, orig_face=39419.46"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639228"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000421XX1, orig_face=23295.41"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639229"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000422XX2, orig_face=21727.37"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639230"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000423XX3, orig_face=47908.56"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639231"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000424XX4, orig_face=49775.71"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639232"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000425XX5, orig_face=28232.65"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639233"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000426XX6, orig_face=36202.01"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639234"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000427XX7, orig_face=8585.04"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639235"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000428XX8, orig_face=15538.68"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639236"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000429XX9, orig_face=48466.76"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639237"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000430XX0, orig_face=29379.83"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639238"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000431XX1, orig_face=27567.56"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639239"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000432XX2, orig_face=37650.8"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639240"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000433XX3, orig_face=3801.1"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639241"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000434XX4, orig_face=29624.7"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639242"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000435XX5, orig_face=25639.67"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639243"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000436XX6, orig_face=42783.27"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639244"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000437XX7, orig_face=8714.2"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639245"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000438XX8, orig_face=48078.17"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639246"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000439XX9, orig_face=4925.46"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639247"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000440XX0, orig_face=10105.42"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639248"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000441XX1, orig_face=30156.72"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639249"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000442XX2, orig_face=34085.42"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639250"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000443XX3, orig_face=12524.99"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639251"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000444XX4, orig_face=6874.44"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639252"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000445XX5, orig_face=44624.08"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639253"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000446XX6, orig_face=13064.55"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639254"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000447XX7, orig_face=30131.44"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639255"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000448XX8, orig_face=31349.69"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639256"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000449XX9, orig_face=21542.02"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639257"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000450XX0, orig_face=29599.94"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639258"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000451XX1, orig_face=26616.35"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "A",
+        "statement_id": "354199217",
+        "record_id": "35630639259"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000452XX2, orig_face=46800.61"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639046"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000020XX0, orig_face=32410.89"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639048"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000021XX1, orig_face=37810.7"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639054"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000024XX4, orig_face=35807.65"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639260"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000500XX0, orig_face=11008.7"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639261"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000501XX1, orig_face=36093.4"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639262"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000502XX2, orig_face=12695.61"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639263"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000503XX3, orig_face=20393.51"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639264"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000504XX4, orig_face=33912.82"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639265"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000505XX5, orig_face=15699.86"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639266"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000506XX6, orig_face=16492.68"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639267"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000507XX7, orig_face=37841.36"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639268"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000508XX8, orig_face=4554.61"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639269"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000509XX9, orig_face=23455.99"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639270"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000510XX0, orig_face=49924.27"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639271"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000511XX1, orig_face=49808.73"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639272"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000512XX2, orig_face=4589.78"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639273"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000513XX3, orig_face=11444.56"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639274"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000514XX4, orig_face=13994.82"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639275"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000515XX5, orig_face=46729.71"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639276"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000516XX6, orig_face=44162.34"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639277"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000517XX7, orig_face=44084.24"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639278"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000518XX8, orig_face=19106.83"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639279"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000519XX9, orig_face=8729.59"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639280"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000520XX0, orig_face=41853.5"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639281"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000521XX1, orig_face=35473.46"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639282"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000522XX2, orig_face=30972.21"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639283"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000523XX3, orig_face=49374.42"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639284"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000524XX4, orig_face=33044.84"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639285"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000525XX5, orig_face=1383.33"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639286"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000526XX6, orig_face=41038.1"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639287"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000527XX7, orig_face=15669.56"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639288"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000528XX8, orig_face=33506.05"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639289"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000529XX9, orig_face=47007.57"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639290"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000530XX0, orig_face=7580.26"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639291"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000531XX1, orig_face=6656.0"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639292"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000532XX2, orig_face=6244.76"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639293"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000533XX3, orig_face=28107.96"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639294"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000534XX4, orig_face=14345.06"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639295"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000535XX5, orig_face=30636.66"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639296"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000536XX6, orig_face=36163.0"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639297"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000537XX7, orig_face=10976.27"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639298"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000538XX8, orig_face=32077.66"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639299"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000539XX9, orig_face=13935.21"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639300"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000540XX0, orig_face=24938.06"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639301"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000541XX1, orig_face=45361.49"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639302"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000542XX2, orig_face=42459.08"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639303"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000543XX3, orig_face=5522.62"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639304"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000544XX4, orig_face=21755.21"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639305"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000545XX5, orig_face=14557.33"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639306"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000546XX6, orig_face=1173.74"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639307"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000547XX7, orig_face=38784.84"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639308"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000548XX8, orig_face=32218.56"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639309"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000549XX9, orig_face=13835.81"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639310"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000550XX0, orig_face=37320.31"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639311"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000551XX1, orig_face=28032.34"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639312"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000552XX2, orig_face=21956.66"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639313"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000553XX3, orig_face=1473.82"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639314"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000554XX4, orig_face=4686.95"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639315"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000555XX5, orig_face=44272.21"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639316"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000556XX6, orig_face=45292.5"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639317"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000557XX7, orig_face=27733.92"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639318"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000558XX8, orig_face=41895.16"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639319"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000559XX9, orig_face=29542.97"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639320"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000560XX0, orig_face=8256.6"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639321"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000561XX1, orig_face=7244.83"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639322"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000562XX2, orig_face=16104.66"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639323"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000563XX3, orig_face=45050.09"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639324"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000564XX4, orig_face=40009.99"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639325"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000565XX5, orig_face=43174.43"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639326"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000566XX6, orig_face=45047.31"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639327"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000567XX7, orig_face=11293.75"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639328"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000568XX8, orig_face=13226.96"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639329"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000569XX9, orig_face=6036.89"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639330"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000570XX0, orig_face=39225.7"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639331"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000571XX1, orig_face=44322.6"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639332"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000572XX2, orig_face=20912.49"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639333"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000573XX3, orig_face=31412.41"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639334"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000574XX4, orig_face=8573.11"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639335"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000575XX5, orig_face=46564.17"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639336"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000576XX6, orig_face=43365.68"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639337"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000577XX7, orig_face=48834.1"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639338"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000578XX8, orig_face=40727.81"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639339"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000579XX9, orig_face=44189.39"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639340"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000580XX0, orig_face=2214.53"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639341"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000581XX1, orig_face=37091.66"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639342"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000582XX2, orig_face=17277.09"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639343"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000583XX3, orig_face=46609.98"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639344"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000584XX4, orig_face=40309.52"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639345"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000585XX5, orig_face=43339.14"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639346"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000586XX6, orig_face=40726.72"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639347"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000587XX7, orig_face=14073.48"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639348"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000588XX8, orig_face=39581.35"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639349"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000589XX9, orig_face=6296.69"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639350"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000590XX0, orig_face=43736.17"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639351"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000591XX1, orig_face=43071.07"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639352"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000592XX2, orig_face=11899.25"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639353"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000593XX3, orig_face=41012.74"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639354"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000594XX4, orig_face=23554.86"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639355"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000595XX5, orig_face=15954.35"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639356"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000596XX6, orig_face=39971.93"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639357"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000597XX7, orig_face=12152.18"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639358"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000598XX8, orig_face=2159.56"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639359"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000599XX9, orig_face=10463.36"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639360"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000600XX0, orig_face=17084.84"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639361"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000601XX1, orig_face=43353.29"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639362"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000602XX2, orig_face=48377.57"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639363"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000603XX3, orig_face=14677.12"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639364"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000604XX4, orig_face=32432.61"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639365"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000605XX5, orig_face=20584.24"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639366"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000606XX6, orig_face=49076.33"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639367"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000607XX7, orig_face=27274.57"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639368"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000608XX8, orig_face=47022.62"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639369"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000609XX9, orig_face=6651.75"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639370"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000610XX0, orig_face=48549.63"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639371"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000611XX1, orig_face=9749.82"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639372"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000612XX2, orig_face=48164.18"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639373"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000613XX3, orig_face=14007.85"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639374"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000614XX4, orig_face=6311.72"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639375"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000615XX5, orig_face=22293.62"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639376"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000616XX6, orig_face=36698.71"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639377"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000617XX7, orig_face=16370.19"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639378"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000618XX8, orig_face=30704.23"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639379"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000619XX9, orig_face=26059.73"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639380"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000620XX0, orig_face=19874.58"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639381"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000621XX1, orig_face=29252.81"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639382"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000622XX2, orig_face=13481.4"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639383"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000623XX3, orig_face=35730.48"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639384"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000624XX4, orig_face=1082.87"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639385"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000625XX5, orig_face=46353.18"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639386"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000626XX6, orig_face=27384.15"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639387"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000627XX7, orig_face=36252.07"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639388"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000628XX8, orig_face=37355.55"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639389"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000629XX9, orig_face=33860.8"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639390"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000630XX0, orig_face=18846.85"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639391"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000631XX1, orig_face=4428.72"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639392"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000632XX2, orig_face=33547.65"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639393"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000633XX3, orig_face=17179.8"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639394"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000634XX4, orig_face=16381.87"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639395"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000635XX5, orig_face=42552.75"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639396"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000636XX6, orig_face=36267.96"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639397"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000637XX7, orig_face=15715.79"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639398"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000638XX8, orig_face=16154.95"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639399"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000639XX9, orig_face=21011.25"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639400"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000640XX0, orig_face=20717.62"
+      },
+      "closest_candidates": []
+    },
+    {
+      "record_ref": {
+        "side": "B",
+        "statement_id": "354199212",
+        "record_id": "35630639401"
+      },
+      "top_reasons": [
+        "NO_COUNTERPART_IN_BLOCK"
+      ],
+      "details": {
+        "attempted_blocking_strategies": [
+          "fund+blk_cusip",
+          "fund+sec_id"
+        ],
+        "notes": "Record remained unmatched after all waterfall steps. blk_cusip=000641XX1, orig_face=15487.1"
+      },
+      "closest_candidates": []
+    }
+  ]
+}

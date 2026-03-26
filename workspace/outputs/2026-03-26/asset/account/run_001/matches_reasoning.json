@@ -1,0 +1,1371 @@
+{
+  "workspace": "",
+  "ruleset": "",
+  "run_id": "",
+  "match_groups": [
+    {
+      "match_group_id": "MG_4_000001",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_FUND",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639055"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639056"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_4_000002",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_FUND",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639063"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639064"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_4_000003",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_FUND",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639061"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639062"
+        }
+      ],
+      "match_score": 0.00999999999476131
+    },
+    {
+      "match_group_id": "MG_4_000004",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_FUND",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639049"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639050"
+        }
+      ],
+      "match_score": 0.00999999999839929
+    },
+    {
+      "match_group_id": "MG_4_000005",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_FUND",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639051"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639052"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_4_000006",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_FUND",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639059"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639060"
+        }
+      ],
+      "match_score": 0.00999999999839929
+    },
+    {
+      "match_group_id": "MG_4_000007",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_FUND",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639057"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639058"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000001",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639069"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639070"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000002",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639103"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639104"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000003",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639153"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639154"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000004",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639155"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639156"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000005",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639129"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639130"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000006",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639065"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639066"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000007",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639093"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639094"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000008",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639127"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639128"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000009",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639141"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639142"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000010",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639145"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639146"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000011",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639067"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639068"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000012",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639073"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639074"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000013",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639085"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639086"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000014",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639089"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639090"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000015",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639099"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639100"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000016",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639101"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639102"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000017",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639121"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639122"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000018",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639095"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639096"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000019",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639133"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639134"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000020",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639135"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639136"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000021",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639077"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639078"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000022",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639143"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639144"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000023",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639107"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639108"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000024",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639117"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639118"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000025",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639125"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639126"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000026",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639131"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639132"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000027",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639159"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639160"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000028",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639075"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639076"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000029",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639081"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639082"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000030",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639115"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639116"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000031",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639163"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639164"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000032",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639111"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639112"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000033",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639071"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639072"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000034",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639087"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639088"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000035",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639119"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639120"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000036",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639123"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639124"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000037",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639137"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639138"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000038",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639079"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639080"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000039",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639097"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639098"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000040",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639105"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639106"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000041",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639109"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639110"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000042",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639139"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639140"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000043",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639151"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639152"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000044",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639161"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639162"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000045",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639083"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639084"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000046",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639147"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639148"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000047",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639091"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639092"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000048",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639113"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639114"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000049",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639149"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639150"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_5_000050",
+      "group_type": "one_to_one",
+      "rule_id": "EXACT_MATCH_BLKCUSIP",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639157"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639158"
+        }
+      ],
+      "match_score": 0.0
+    },
+    {
+      "match_group_id": "MG_6_000001",
+      "group_type": "many_to_many_balance_k",
+      "rule_id": "SEC_ID_ISSUE_MULTI",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639186"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639187"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639188"
+        }
+      ],
+      "block_key": "000207XX7"
+    },
+    {
+      "match_group_id": "MG_6_000002",
+      "group_type": "many_to_many_balance_k",
+      "rule_id": "SEC_ID_ISSUE_MULTI",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639183"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639184"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639185"
+        }
+      ],
+      "block_key": "000206XX6"
+    },
+    {
+      "match_group_id": "MG_6_000003",
+      "group_type": "many_to_many_balance_k",
+      "rule_id": "SEC_ID_ISSUE_MULTI",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639177"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639178"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639179"
+        }
+      ],
+      "block_key": "000204XX4"
+    },
+    {
+      "match_group_id": "MG_6_000004",
+      "group_type": "many_to_many_balance_k",
+      "rule_id": "SEC_ID_ISSUE_MULTI",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639171"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639172"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639173"
+        }
+      ],
+      "block_key": "000202XX2"
+    },
+    {
+      "match_group_id": "MG_6_000005",
+      "group_type": "many_to_many_balance_k",
+      "rule_id": "SEC_ID_ISSUE_MULTI",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639174"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639175"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639176"
+        }
+      ],
+      "block_key": "000203XX3"
+    },
+    {
+      "match_group_id": "MG_6_000006",
+      "group_type": "many_to_many_balance_k",
+      "rule_id": "SEC_ID_ISSUE_MULTI",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639189"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639190"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639191"
+        }
+      ],
+      "block_key": "000208XX8"
+    },
+    {
+      "match_group_id": "MG_6_000007",
+      "group_type": "many_to_many_balance_k",
+      "rule_id": "SEC_ID_ISSUE_MULTI",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639168"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639169"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639170"
+        }
+      ],
+      "block_key": "000201XX1"
+    },
+    {
+      "match_group_id": "MG_6_000008",
+      "group_type": "many_to_many_balance_k",
+      "rule_id": "SEC_ID_ISSUE_MULTI",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639192"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639193"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639194"
+        }
+      ],
+      "block_key": "000209XX9"
+    },
+    {
+      "match_group_id": "MG_6_000009",
+      "group_type": "many_to_many_balance_k",
+      "rule_id": "SEC_ID_ISSUE_MULTI",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639180"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639181"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639182"
+        }
+      ],
+      "block_key": "000205XX5"
+    },
+    {
+      "match_group_id": "MG_6_000010",
+      "group_type": "many_to_many_balance_k",
+      "rule_id": "SEC_ID_ISSUE_MULTI",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639165"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639166"
+        },
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639167"
+        }
+      ],
+      "block_key": "000200XX0"
+    },
+    {
+      "match_group_id": "MG_7_000001",
+      "group_type": "one_sided",
+      "rule_id": "ZERO_POS",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639201"
+        },
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639202"
+        }
+      ],
+      "block_key": "000303XX3"
+    },
+    {
+      "match_group_id": "MG_7_000002",
+      "group_type": "one_sided",
+      "rule_id": "ZERO_POS",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639197"
+        },
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639198"
+        }
+      ],
+      "block_key": "000301XX1"
+    },
+    {
+      "match_group_id": "MG_7_000003",
+      "group_type": "one_sided",
+      "rule_id": "ZERO_POS",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639199"
+        },
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639200"
+        }
+      ],
+      "block_key": "000302XX2"
+    },
+    {
+      "match_group_id": "MG_7_000004",
+      "group_type": "one_sided",
+      "rule_id": "ZERO_POS",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639195"
+        },
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639196"
+        }
+      ],
+      "block_key": "000300XX0"
+    },
+    {
+      "match_group_id": "MG_7_000005",
+      "group_type": "one_sided",
+      "rule_id": "ZERO_POS",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639203"
+        },
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639204"
+        }
+      ],
+      "block_key": "000304XX4"
+    },
+    {
+      "match_group_id": "MG_7_000006",
+      "group_type": "one_sided",
+      "rule_id": "ZERO_POS",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639205"
+        },
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639206"
+        }
+      ],
+      "block_key": "000305XX5"
+    }
+  ]
+}

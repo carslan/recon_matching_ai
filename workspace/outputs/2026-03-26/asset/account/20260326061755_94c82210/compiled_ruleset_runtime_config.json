@@ -1,0 +1,54 @@
+{
+  "workspace": "asset",
+  "ruleset": "account",
+  "kb": {
+    "ruleset_dir": "/home/che/LocalAppStore/Apps/recon-matching/workspace/knowledgebase/rulesets/asset/account",
+    "kb_index_path": "/home/che/LocalAppStore/Apps/recon-matching/workspace/knowledgebase/rulesets/asset/account/kb_index.json"
+  },
+  "blocking": {
+    "strategies": [
+      {
+        "name": "fund+blk_cusip",
+        "keys": [
+          "fund",
+          "blk_cusip"
+        ],
+        "required": [
+          "fund",
+          "blk_cusip"
+        ],
+        "fallback_order": 1
+      },
+      {
+        "name": "fund+sec_id",
+        "keys": [
+          "fund",
+          "sec_id"
+        ],
+        "required": [
+          "fund",
+          "sec_id"
+        ],
+        "fallback_order": 2
+      }
+    ]
+  },
+  "amount_policy": {
+    "tolerance": 0.005
+  },
+  "guardrails": {
+    "allowed_output_root": "/home/che/LocalAppStore/Apps/recon-matching/workspace/outputs",
+    "allowed_kb_proposal_root": "/home/che/LocalAppStore/Apps/recon-matching/workspace/knowledgebase",
+    "forbidden_kb_mutations": [
+      "core_matching_rules.json",
+      "agent_matching_rules.json"
+    ],
+    "max_operator_seconds": 600
+  },
+  "operator_allowlist": [
+    "exclude_by_predicates",
+    "one_to_one_ranked",
+    "many_to_many_balance_k",
+    "one_sided"
+  ]
+}

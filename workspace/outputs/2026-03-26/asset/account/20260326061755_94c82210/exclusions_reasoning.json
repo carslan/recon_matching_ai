@@ -1,0 +1,457 @@
+{
+  "workspace": "",
+  "ruleset": "",
+  "run_id": "",
+  "exclusions": [
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639000"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639002"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639004"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639006"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639008"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639010"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639012"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639014"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639016"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639018"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639020"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639022"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639024"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639026"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639028"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639001"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639003"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639005"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639007"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639009"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639011"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639013"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639015"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639017"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639019"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639021"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639023"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639025"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639027"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_CUST_DERIV",
+      "record_refs": [
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639029"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_COLLATERAL",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639030"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_COLLATERAL",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639032"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_COLLATERAL",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639034"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_COLLATERAL",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639036"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_COLLATERAL",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639038"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_COLLATERAL",
+      "record_refs": [
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639031"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_COLLATERAL",
+      "record_refs": [
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639033"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_COLLATERAL",
+      "record_refs": [
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639035"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_COLLATERAL",
+      "record_refs": [
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639037"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_COLLATERAL",
+      "record_refs": [
+        {
+          "side": "B",
+          "statement_id": "354199212",
+          "record_id": "35630639039"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_FX_HEDGE",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639040"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_FX_HEDGE",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639041"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_FX_HEDGE",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639042"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_FX_HEDGE",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639043"
+        }
+      ]
+    },
+    {
+      "rule_id": "EXCL_FX_HEDGE",
+      "record_refs": [
+        {
+          "side": "A",
+          "statement_id": "354199217",
+          "record_id": "35630639044"
+        }
+      ]
+    }
+  ]
+}
